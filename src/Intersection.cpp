@@ -23,9 +23,11 @@ void WaitingVehicles::pushBack(std::shared_ptr<Vehicle> vehicle, std::promise<vo
 
 void WaitingVehicles::permitEntryToFirstInQueue()
 {
-    // L2.3 : First, get the entries from the front of _promises and _vehicles. 
-    // Then, fulfill promise and send signal back that permission to enter has been granted.
-    // Finally, remove the front elements from both queues. 
+    std::promise<void> &prs = _promises.front();
+    std::shared_ptr<Vehicle> front_vehicle = _vehicles.front();
+    prs.set_value();
+    _promises.erase(_promises.begin());
+    _vehicles.erase(_vehicles.begin());
 }
 
 /* Implementation of class "Intersection" */
@@ -66,6 +68,7 @@ void Intersection::addVehicleToQueue(std::shared_ptr<Vehicle> vehicle)
     _waitingVehicles.pushBack(vehicle, std::move(prs));
 
     ftr.wait();
+
     std::cout << "Intersection #" << _id << ": Vehicle #" << vehicle->getID() << " is granted entry." << std::endl;
 }
 
@@ -80,7 +83,7 @@ void Intersection::vehicleHasLeft(std::shared_ptr<Vehicle> vehicle)
 void Intersection::setIsBlocked(bool isBlocked)
 {
     _isBlocked = isBlocked;
-    std::cout << "Intersection #" << _id << " isBlocked=" << isBlocked << std::endl;
+    //std::cout << "Intersection #" << _id << " isBlocked=" << isBlocked << std::endl;
 }
 
 // virtual function which is executed in a thread
