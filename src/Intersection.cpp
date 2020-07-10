@@ -61,9 +61,11 @@ void Intersection::addVehicleToQueue(std::shared_ptr<Vehicle> vehicle)
 {
     std::cout << "Intersection #" << _id << "::addVehicleToQueue: thread id = " << std::this_thread::get_id() << std::endl;
 
-    // L2.2 : First, add the new vehicle to the waiting line by creating a promise, a corresponding future and then adding both to _waitingVehicles. 
-    // Then, wait until the vehicle has been granted entry. 
+    std::promise<void> prs;
+    std::future<void> ftr = prs.get_future();
+    _waitingVehicles.pushBack(vehicle, std::move(prs));
 
+    ftr.wait();
     std::cout << "Intersection #" << _id << ": Vehicle #" << vehicle->getID() << " is granted entry." << std::endl;
 }
 
@@ -78,7 +80,7 @@ void Intersection::vehicleHasLeft(std::shared_ptr<Vehicle> vehicle)
 void Intersection::setIsBlocked(bool isBlocked)
 {
     _isBlocked = isBlocked;
-    //std::cout << "Intersection #" << _id << " isBlocked=" << isBlocked << std::endl;
+    std::cout << "Intersection #" << _id << " isBlocked=" << isBlocked << std::endl;
 }
 
 // virtual function which is executed in a thread
@@ -91,7 +93,7 @@ void Intersection::simulate() // using threads + promises/futures + exceptions
 void Intersection::processVehicleQueue()
 {
     // print id of the current thread
-    //std::cout << "Intersection #" << _id << "::processVehicleQueue: thread id = " << std::this_thread::get_id() << std::endl;
+    std::cout << "Intersection #" << _id << "::processVehicleQueue: thread id = " << std::this_thread::get_id() << std::endl;
 
     // continuously process the vehicle queue
     while (true)
