@@ -251,59 +251,59 @@ src/TrafficObject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.s
 .PHONY : src/TrafficObject.cpp.s
 
-src/TrafficSimulator-L1.o: src/TrafficSimulator-L1.cpp.o
+src/TrafficSimulator-L2.o: src/TrafficSimulator-L2.cpp.o
 
-.PHONY : src/TrafficSimulator-L1.o
-
-# target to build an object file
-src/TrafficSimulator-L1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.o
-.PHONY : src/TrafficSimulator-L1.cpp.o
-
-src/TrafficSimulator-L1.i: src/TrafficSimulator-L1.cpp.i
-
-.PHONY : src/TrafficSimulator-L1.i
-
-# target to preprocess a source file
-src/TrafficSimulator-L1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.i
-.PHONY : src/TrafficSimulator-L1.cpp.i
-
-src/TrafficSimulator-L1.s: src/TrafficSimulator-L1.cpp.s
-
-.PHONY : src/TrafficSimulator-L1.s
-
-# target to generate assembly for a file
-src/TrafficSimulator-L1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.s
-.PHONY : src/TrafficSimulator-L1.cpp.s
-
-src/Vehicle_Student.o: src/Vehicle_Student.cpp.o
-
-.PHONY : src/Vehicle_Student.o
+.PHONY : src/TrafficSimulator-L2.o
 
 # target to build an object file
-src/Vehicle_Student.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.o
-.PHONY : src/Vehicle_Student.cpp.o
+src/TrafficSimulator-L2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.o
+.PHONY : src/TrafficSimulator-L2.cpp.o
 
-src/Vehicle_Student.i: src/Vehicle_Student.cpp.i
+src/TrafficSimulator-L2.i: src/TrafficSimulator-L2.cpp.i
 
-.PHONY : src/Vehicle_Student.i
+.PHONY : src/TrafficSimulator-L2.i
 
 # target to preprocess a source file
-src/Vehicle_Student.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.i
-.PHONY : src/Vehicle_Student.cpp.i
+src/TrafficSimulator-L2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.i
+.PHONY : src/TrafficSimulator-L2.cpp.i
 
-src/Vehicle_Student.s: src/Vehicle_Student.cpp.s
+src/TrafficSimulator-L2.s: src/TrafficSimulator-L2.cpp.s
 
-.PHONY : src/Vehicle_Student.s
+.PHONY : src/TrafficSimulator-L2.s
 
 # target to generate assembly for a file
-src/Vehicle_Student.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.s
-.PHONY : src/Vehicle_Student.cpp.s
+src/TrafficSimulator-L2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.s
+.PHONY : src/TrafficSimulator-L2.cpp.s
+
+src/Vehicle.o: src/Vehicle.cpp.o
+
+.PHONY : src/Vehicle.o
+
+# target to build an object file
+src/Vehicle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o
+.PHONY : src/Vehicle.cpp.o
+
+src/Vehicle.i: src/Vehicle.cpp.i
+
+.PHONY : src/Vehicle.i
+
+# target to preprocess a source file
+src/Vehicle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.i
+.PHONY : src/Vehicle.cpp.i
+
+src/Vehicle.s: src/Vehicle.cpp.s
+
+.PHONY : src/Vehicle.s
+
+# target to generate assembly for a file
+src/Vehicle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.s
+.PHONY : src/Vehicle.cpp.s
 
 # Help Target
 help:
@@ -326,12 +326,12 @@ help:
 	@echo "... src/TrafficObject.o"
 	@echo "... src/TrafficObject.i"
 	@echo "... src/TrafficObject.s"
-	@echo "... src/TrafficSimulator-L1.o"
-	@echo "... src/TrafficSimulator-L1.i"
-	@echo "... src/TrafficSimulator-L1.s"
-	@echo "... src/Vehicle_Student.o"
-	@echo "... src/Vehicle_Student.i"
-	@echo "... src/Vehicle_Student.s"
+	@echo "... src/TrafficSimulator-L2.o"
+	@echo "... src/TrafficSimulator-L2.i"
+	@echo "... src/TrafficSimulator-L2.s"
+	@echo "... src/Vehicle.o"
+	@echo "... src/Vehicle.i"
+	@echo "... src/Vehicle.s"
 .PHONY : help
 
 

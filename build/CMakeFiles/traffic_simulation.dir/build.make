@@ -80,80 +80,80 @@ include CMakeFiles/traffic_simulation.dir/flags.make
 CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o: CMakeFiles/traffic_simulation.dir/flags.make
 CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o: ../src/Graphics.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o -c /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Graphics.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o -c /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Graphics.cpp
 
 CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Graphics.cpp > CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Graphics.cpp > CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.i
 
 CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Graphics.cpp -o CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Graphics.cpp -o CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.s
 
 CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o: CMakeFiles/traffic_simulation.dir/flags.make
 CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o: ../src/Intersection.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o -c /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Intersection.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o -c /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Intersection.cpp
 
 CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Intersection.cpp > CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Intersection.cpp > CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.i
 
 CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Intersection.cpp -o CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Intersection.cpp -o CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.s
 
 CMakeFiles/traffic_simulation.dir/src/Street.cpp.o: CMakeFiles/traffic_simulation.dir/flags.make
 CMakeFiles/traffic_simulation.dir/src/Street.cpp.o: ../src/Street.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/traffic_simulation.dir/src/Street.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/Street.cpp.o -c /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Street.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/Street.cpp.o -c /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Street.cpp
 
 CMakeFiles/traffic_simulation.dir/src/Street.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traffic_simulation.dir/src/Street.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Street.cpp > CMakeFiles/traffic_simulation.dir/src/Street.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Street.cpp > CMakeFiles/traffic_simulation.dir/src/Street.cpp.i
 
 CMakeFiles/traffic_simulation.dir/src/Street.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traffic_simulation.dir/src/Street.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Street.cpp -o CMakeFiles/traffic_simulation.dir/src/Street.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Street.cpp -o CMakeFiles/traffic_simulation.dir/src/Street.cpp.s
 
 CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o: CMakeFiles/traffic_simulation.dir/flags.make
 CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o: ../src/TrafficObject.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o -c /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o -c /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.cpp
 
 CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.cpp > CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.cpp > CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.i
 
 CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.cpp -o CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.cpp -o CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.s
 
-CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.o: CMakeFiles/traffic_simulation.dir/flags.make
-CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.o: ../src/TrafficSimulator-L1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.o -c /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficSimulator-L1.cpp
+CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.o: CMakeFiles/traffic_simulation.dir/flags.make
+CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.o: ../src/TrafficSimulator-L2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.o -c /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficSimulator-L2.cpp
 
-CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficSimulator-L1.cpp > CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.i
+CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficSimulator-L2.cpp > CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.i
 
-CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficSimulator-L1.cpp -o CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.s
+CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficSimulator-L2.cpp -o CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.s
 
-CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.o: CMakeFiles/traffic_simulation.dir/flags.make
-CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.o: ../src/Vehicle_Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.o -c /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Vehicle_Student.cpp
+CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o: CMakeFiles/traffic_simulation.dir/flags.make
+CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o: ../src/Vehicle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o -c /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Vehicle.cpp
 
-CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Vehicle_Student.cpp > CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.i
+CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Vehicle.cpp > CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.i
 
-CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Vehicle_Student.cpp -o CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.s
+CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Vehicle.cpp -o CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.s
 
 # Object files for target traffic_simulation
 traffic_simulation_OBJECTS = \
@@ -161,8 +161,8 @@ traffic_simulation_OBJECTS = \
 "CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o" \
 "CMakeFiles/traffic_simulation.dir/src/Street.cpp.o" \
 "CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o" \
-"CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.o" \
-"CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.o"
+"CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.o" \
+"CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o"
 
 # External object files for target traffic_simulation
 traffic_simulation_EXTERNAL_OBJECTS =
@@ -171,8 +171,8 @@ traffic_simulation: CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o
 traffic_simulation: CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o
 traffic_simulation: CMakeFiles/traffic_simulation.dir/src/Street.cpp.o
 traffic_simulation: CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o
-traffic_simulation: CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.o
-traffic_simulation: CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.o
+traffic_simulation: CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.o
+traffic_simulation: CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o
 traffic_simulation: CMakeFiles/traffic_simulation.dir/build.make
 traffic_simulation: /usr/lib64/libopencv_gapi.so.4.2.0
 traffic_simulation: /usr/lib64/libopencv_stitching.so.4.2.0

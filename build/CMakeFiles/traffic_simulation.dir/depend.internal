@@ -149,12 +149,12 @@ CMakeFiles/traffic_simulation.dir/src/Street.cpp.o
 CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o
  /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.cpp
  /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.h
-CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.o
+CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.o
  /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Graphics.h
  /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Intersection.h
  /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Street.h
  /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.h
- /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficSimulator-L1.cpp
+ /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficSimulator-L2.cpp
  /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Vehicle.h
  /usr/include/opencv4/opencv2/calib3d.hpp
  /usr/include/opencv4/opencv2/core.hpp
@@ -284,9 +284,9 @@ CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L1.cpp.o
  /usr/include/opencv4/opencv2/viz/viz3d.hpp
  /usr/include/opencv4/opencv2/viz/vizcore.hpp
  /usr/include/opencv4/opencv2/viz/widgets.hpp
-CMakeFiles/traffic_simulation.dir/src/Vehicle_Student.cpp.o
+CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o
  /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Intersection.h
  /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Street.h
  /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.h
+ /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Vehicle.cpp
  /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Vehicle.h
- /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Vehicle_Student.cpp
