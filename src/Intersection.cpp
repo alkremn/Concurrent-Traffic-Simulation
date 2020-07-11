@@ -17,17 +17,19 @@ int WaitingVehicles::getSize()
 
 void WaitingVehicles::pushBack(std::shared_ptr<Vehicle> vehicle, std::promise<void> &&promise)
 {
+    std::lock_guard<std::mutex> lock(_mtx);
     _vehicles.push_back(vehicle);
     _promises.push_back(std::move(promise));
 }
 
 void WaitingVehicles::permitEntryToFirstInQueue()
 {
-    std::promise<void> &prs = _promises.front();
-    std::shared_ptr<Vehicle> front_vehicle = _vehicles.front();
-    prs.set_value();
-    _promises.erase(_promises.begin());
-    _vehicles.erase(_vehicles.begin());
+    std::lock_guard<std::mutex> lock(_mtx);
+    auto first_promise = _promises.begin();
+    auto first_vehicle = _vehicles.begin();
+    first_promise->set_value();
+    _promises.erase(first_promise);
+    _vehicles.erase(first_vehicle);
 }
 
 /* Implementation of class "Intersection" */
@@ -61,15 +63,18 @@ std::vector<std::shared_ptr<Street>> Intersection::queryStreets(std::shared_ptr<
 // adds a new vehicle to the queue and returns once the vehicle is allowed to enter
 void Intersection::addVehicleToQueue(std::shared_ptr<Vehicle> vehicle)
 {
+    std::unique_lock<std::mutex> lck(_mtxCout);
     std::cout << "Intersection #" << _id << "::addVehicleToQueue: thread id = " << std::this_thread::get_id() << std::endl;
+    lck.unlock();
 
     std::promise<void> prs;
     std::future<void> ftr = prs.get_future();
     _waitingVehicles.pushBack(vehicle, std::move(prs));
 
     ftr.wait();
-
+    lck.lock();
     std::cout << "Intersection #" << _id << ": Vehicle #" << vehicle->getID() << " is granted entry." << std::endl;
+    lck.unlock();
 }
 
 void Intersection::vehicleHasLeft(std::shared_ptr<Vehicle> vehicle)
@@ -96,7 +101,7 @@ void Intersection::simulate() // using threads + promises/futures + exceptions
 void Intersection::processVehicleQueue()
 {
     // print id of the current thread
-    std::cout << "Intersection #" << _id << "::processVehicleQueue: thread id = " << std::this_thread::get_id() << std::endl;
+    //std::cout << "Intersection #" << _id << "::processVehicleQueue: thread id = " << std::this_thread::get_id() << std::endl;
 
     // continuously process the vehicle queue
     while (true)

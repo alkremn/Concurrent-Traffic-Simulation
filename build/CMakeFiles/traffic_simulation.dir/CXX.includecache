@@ -43,6 +43,8 @@ vector
 -
 thread
 -
+mutex
+-
 
 /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Vehicle.h
 TrafficObject.h
