@@ -49,7 +49,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-std=c++17 -ggdb -pthread -g  "
+					"fragment" : " -std=c++17 -ggdb -pthread -g  "
 				}
 			],
 			"includes" : 

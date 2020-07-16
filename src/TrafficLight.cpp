@@ -21,8 +21,11 @@ void MessageQueue<T>::send(T &&msg)
 
 void TrafficLight::waitForGreen()
 {
-    while (_messages->recieve() != TrafficLightPhase::green)
+    while (true)
     {
+        //
+        if (_messages->recieve() == TrafficLightPhase::green && _currentPhase == TrafficLightPhase::green)
+            break;
     }
 }
 void TrafficLight::simulate()
@@ -32,7 +35,7 @@ void TrafficLight::simulate()
 
 void TrafficLight::cycleThroughPhases()
 {
-    double cycleDuration = 2 + (int)(3.0 * rand() / (RAND_MAX + 1.0));
+    double cycleDuration = 4 + (int)(3.0 * rand() / (RAND_MAX + 1.0));
     // init stop watch
     auto lastUpdate = std::chrono::system_clock::now();
 
