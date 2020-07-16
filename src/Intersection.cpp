@@ -63,6 +63,12 @@ std::vector<std::shared_ptr<Street>> Intersection::queryStreets(std::shared_ptr<
 // adds a new vehicle to the queue and returns once the vehicle is allowed to enter
 void Intersection::addVehicleToQueue(std::shared_ptr<Vehicle> vehicle)
 {
+    if (!trafficLightIsGreen())
+    {
+        std::cout << "waiting for green"<< std::endl;
+        _trafficLight.waitForGreen();
+        std::cout << "green light!" << std::endl;
+    }
     std::unique_lock<std::mutex> lck(_mtxCout);
     std::cout << "Intersection #" << _id << "::addVehicleToQueue: thread id = " << std::this_thread::get_id() << std::endl;
     lck.unlock();
@@ -74,6 +80,8 @@ void Intersection::addVehicleToQueue(std::shared_ptr<Vehicle> vehicle)
     ftr.wait();
     lck.lock();
     std::cout << "Intersection #" << _id << ": Vehicle #" << vehicle->getID() << " is granted entry." << std::endl;
+
+    
     lck.unlock();
 }
 
@@ -94,6 +102,8 @@ void Intersection::setIsBlocked(bool isBlocked)
 // virtual function which is executed in a thread
 void Intersection::simulate() // using threads + promises/futures + exceptions
 {
+    //starting traffic light simulation
+    _trafficLight.simulate();
     // launch vehicle queue processing in a thread
     _threads.emplace_back(std::thread(&Intersection::processVehicleQueue, this));
 }
@@ -119,4 +129,9 @@ void Intersection::processVehicleQueue()
             _waitingVehicles.permitEntryToFirstInQueue();
         }
     }
+}
+
+bool Intersection::trafficLightIsGreen()
+{
+    return _trafficLight.getCurrentPhase() == TrafficLightPhase::green;
 }

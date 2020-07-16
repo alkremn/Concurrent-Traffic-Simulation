@@ -19,20 +19,8 @@ class MessageQueue
 {
 public:
     MessageQueue(){};
-    void send(T &&msg)
-    {
-        std::lock_guard<std::mutex> lock(_mtx);
-        _queue.emplace_back(std::move(msg));
-        _cond.notify_one();
-    }
-    T recieve()
-    {
-        std::unique_lock<std::mutex> lock(_mtx);
-        _cond.wait(lock, [this]() { return !_queue.empty(); });
-        T msg = std::move(_queue.back());
-        _queue.pop_back();
-        return msg;
-    }
+    T recieve();
+    void send(T &&);
 
 private:
     std::deque<T> _queue;

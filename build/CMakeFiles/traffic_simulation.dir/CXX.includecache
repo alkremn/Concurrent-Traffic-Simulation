@@ -6,9 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficLight.cpp
+/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Intersection.cpp
+iostream
+-
+thread
+-
+chrono
+-
+future
+-
+random
+-
+Street.h
+/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Street.h
+Intersection.h
+/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Intersection.h
+Vehicle.h
+/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Vehicle.h
+
+/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Intersection.h
+vector
+-
+future
+-
+memory
+-
+TrafficObject.h
+/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.h
 TrafficLight.h
 /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficLight.h
+
+/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Street.h
+TrafficObject.h
+/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.h
 
 /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficLight.h
 queue
@@ -27,4 +57,8 @@ thread
 -
 mutex
 -
+
+/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Vehicle.h
+TrafficObject.h
+/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.h
 
