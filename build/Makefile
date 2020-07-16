@@ -251,32 +251,32 @@ src/TrafficObject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.s
 .PHONY : src/TrafficObject.cpp.s
 
-src/TrafficSimulator-L2.o: src/TrafficSimulator-L2.cpp.o
+src/TrafficSimulator-Final.o: src/TrafficSimulator-Final.cpp.o
 
-.PHONY : src/TrafficSimulator-L2.o
+.PHONY : src/TrafficSimulator-Final.o
 
 # target to build an object file
-src/TrafficSimulator-L2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.o
-.PHONY : src/TrafficSimulator-L2.cpp.o
+src/TrafficSimulator-Final.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o
+.PHONY : src/TrafficSimulator-Final.cpp.o
 
-src/TrafficSimulator-L2.i: src/TrafficSimulator-L2.cpp.i
+src/TrafficSimulator-Final.i: src/TrafficSimulator-Final.cpp.i
 
-.PHONY : src/TrafficSimulator-L2.i
+.PHONY : src/TrafficSimulator-Final.i
 
 # target to preprocess a source file
-src/TrafficSimulator-L2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.i
-.PHONY : src/TrafficSimulator-L2.cpp.i
+src/TrafficSimulator-Final.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.i
+.PHONY : src/TrafficSimulator-Final.cpp.i
 
-src/TrafficSimulator-L2.s: src/TrafficSimulator-L2.cpp.s
+src/TrafficSimulator-Final.s: src/TrafficSimulator-Final.cpp.s
 
-.PHONY : src/TrafficSimulator-L2.s
+.PHONY : src/TrafficSimulator-Final.s
 
 # target to generate assembly for a file
-src/TrafficSimulator-L2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.s
-.PHONY : src/TrafficSimulator-L2.cpp.s
+src/TrafficSimulator-Final.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/traffic_simulation.dir/build.make CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.s
+.PHONY : src/TrafficSimulator-Final.cpp.s
 
 src/Vehicle.o: src/Vehicle.cpp.o
 
@@ -326,9 +326,9 @@ help:
 	@echo "... src/TrafficObject.o"
 	@echo "... src/TrafficObject.i"
 	@echo "... src/TrafficObject.s"
-	@echo "... src/TrafficSimulator-L2.o"
-	@echo "... src/TrafficSimulator-L2.i"
-	@echo "... src/TrafficSimulator-L2.s"
+	@echo "... src/TrafficSimulator-Final.o"
+	@echo "... src/TrafficSimulator-Final.i"
+	@echo "... src/TrafficSimulator-Final.s"
 	@echo "... src/Vehicle.o"
 	@echo "... src/Vehicle.i"
 	@echo "... src/Vehicle.s"

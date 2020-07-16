@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Intersection.cpp" "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build/CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o"
   "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Street.cpp" "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build/CMakeFiles/traffic_simulation.dir/src/Street.cpp.o"
   "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.cpp" "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build/CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o"
-  "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficSimulator-L2.cpp" "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build/CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.o"
+  "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficSimulator-Final.cpp" "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build/CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o"
   "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Vehicle.cpp" "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build/CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

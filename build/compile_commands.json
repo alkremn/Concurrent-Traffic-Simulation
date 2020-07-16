@@ -21,8 +21,8 @@
 },
 {
   "directory": "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build",
-  "command": "/usr/bin/g++   -isystem /usr/include/opencv4  -std=c++17 -pthread -g   -o CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-L2.cpp.o -c /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficSimulator-L2.cpp",
-  "file": "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficSimulator-L2.cpp"
+  "command": "/usr/bin/g++   -isystem /usr/include/opencv4  -std=c++17 -pthread -g   -o CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o -c /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficSimulator-Final.cpp",
+  "file": "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficSimulator-Final.cpp"
 },
 {
   "directory": "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build",
