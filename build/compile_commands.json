@@ -16,6 +16,11 @@
 },
 {
   "directory": "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build",
+  "command": "/usr/bin/g++   -isystem /usr/include/opencv4  -std=c++17 -pthread -g   -o CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o -c /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficLight.cpp",
+  "file": "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficLight.cpp"
+},
+{
+  "directory": "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/build",
   "command": "/usr/bin/g++   -isystem /usr/include/opencv4  -std=c++17 -pthread -g   -o CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o -c /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.cpp",
   "file": "/home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.cpp"
 },

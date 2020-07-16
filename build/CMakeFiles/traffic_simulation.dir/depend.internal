@@ -146,6 +146,10 @@ CMakeFiles/traffic_simulation.dir/src/Street.cpp.o
  /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Street.h
  /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.h
  /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/Vehicle.h
+CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o
+ /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficLight.cpp
+ /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficLight.h
+ /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.h
 CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o
  /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.cpp
  /home/alexeykremnev/Documents/cpp_projects/Concurrent-Traffic-Simulation/src/TrafficObject.h

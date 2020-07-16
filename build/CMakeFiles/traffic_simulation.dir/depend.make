@@ -146,6 +146,10 @@ CMakeFiles/traffic_simulation.dir/src/Street.cpp.o: ../src/Street.h
 CMakeFiles/traffic_simulation.dir/src/Street.cpp.o: ../src/TrafficObject.h
 CMakeFiles/traffic_simulation.dir/src/Street.cpp.o: ../src/Vehicle.h
 
+CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o: ../src/TrafficLight.cpp
+CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o: ../src/TrafficLight.h
+CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o: ../src/TrafficObject.h
+
 CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o: ../src/TrafficObject.cpp
 CMakeFiles/traffic_simulation.dir/src/TrafficObject.cpp.o: ../src/TrafficObject.h
 
